@@ -7,17 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302816561A70E04800622F34 /* Southeastern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302816551A70E04800622F34 /* Southeastern.swift */; };
+		30459C621A71C7A80077E80F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30459C611A71C7A80077E80F /* Images.xcassets */; };
+		307671C31ACE2A5C00640AE9 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307671C21ACE2A5C00640AE9 /* EventCell.swift */; };
+		30D6D13B1A70F9DA00E3473C /* Hammond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D13A1A70F9DA00E3473C /* Hammond.swift */; };
+		30D6D13D1A70FC7D00E3473C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D13C1A70FC7D00E3473C /* Contact.swift */; };
+		30D6D1411A71011F00E3473C /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6D1401A71011F00E3473C /* About.swift */; };
 		8B063CC91A627B920058244E /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B063CC81A627B920058244E /* TwitterViewController.swift */; };
-		8B72AB891A62842500F11004 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B72AB881A62842500F11004 /* VideoViewController.swift */; };
+		8B2D62DB1A629FC900AC0E14 /* WebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D62DA1A629FC900AC0E14 /* WebPageViewController.swift */; };
+		8B2D62E01A62C33A00AC0E14 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2D62DD1A62C33A00AC0E14 /* TwitterKit.framework */; };
+		8B2D62E11A62C33A00AC0E14 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8B2D62DE1A62C33A00AC0E14 /* TwitterKitResources.bundle */; };
+		8B2D62E21A62C33A00AC0E14 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2D62DF1A62C33A00AC0E14 /* Fabric.framework */; };
+		8B2D62E41A62CFD900AC0E14 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D62E31A62CFD900AC0E14 /* Videos.swift */; };
+		8B59873A1A635A21002D2F9A /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5987391A635A21002D2F9A /* Events.swift */; };
+		8B59873D1A635A47002D2F9A /* EventsXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59873C1A635A47002D2F9A /* EventsXMLParser.swift */; };
 		8B7792F81A6251C8003219EB /* NewsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7792F71A6251C8003219EB /* NewsFeedTableViewController.swift */; };
 		8B7792FB1A6253E7003219EB /* XMLParserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7792FA1A6253E7003219EB /* XMLParserManager.swift */; };
-		8B7793051A626863003219EB /* WebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7793041A626863003219EB /* WebPageViewController.swift */; };
+		8B90DA7A1A63C41700D59C36 /* Coaches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90DA791A63C41700D59C36 /* Coaches.swift */; };
+		8B90DA7C1A63C45700D59C36 /* Roster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B90DA7B1A63C45700D59C36 /* Roster.swift */; };
+		8B9A630F1A6468A800D7B733 /* Academics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A630E1A6468A800D7B733 /* Academics.swift */; };
+		8B9C1E1C1A66065700F0EE8E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9C1E1B1A66065700F0EE8E /* SwiftyJSON.swift */; };
 		8BB01BB51A62353100423346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB01BB41A62353100423346 /* AppDelegate.swift */; };
 		8BB01BB71A62353100423346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB01BB61A62353100423346 /* ViewController.swift */; };
 		8BB01BBA1A62353100423346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB01BB81A62353100423346 /* Main.storyboard */; };
 		8BB01BBF1A62353100423346 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB01BBD1A62353100423346 /* LaunchScreen.xib */; };
 		8BB01BCB1A62353100423346 /* Lion_FootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB01BCA1A62353100423346 /* Lion_FootballTests.swift */; };
-		8BB01BD51A62410700423346 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB01BD41A62410700423346 /* Images.xcassets */; };
+		8BB99D181A63AFE800D8EFE1 /* More.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB99D171A63AFE800D8EFE1 /* More.swift */; };
+		8BB99D1B1A63B22300D8EFE1 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB99D1A1A63B22300D8EFE1 /* Base.swift */; };
 		8BC68F181A62817400D1B997 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE67C041A6280AC008F9B9F /* Social.framework */; };
 		8BC68F191A62817A00D1B997 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE67C021A6280A6008F9B9F /* Twitter.framework */; };
 /* End PBXBuildFile section */
@@ -33,11 +49,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		302816551A70E04800622F34 /* Southeastern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Southeastern.swift; sourceTree = "<group>"; };
+		30459C611A71C7A80077E80F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Lion Football/Images.xcassets"; sourceTree = "<group>"; };
+		307671C21ACE2A5C00640AE9 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		30D6D13A1A70F9DA00E3473C /* Hammond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hammond.swift; sourceTree = "<group>"; };
+		30D6D13C1A70FC7D00E3473C /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		30D6D1401A71011F00E3473C /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		8B063CC81A627B920058244E /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
-		8B72AB881A62842500F11004 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		8B2D62DA1A629FC900AC0E14 /* WebPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebPageViewController.swift; sourceTree = "<group>"; };
+		8B2D62DD1A62C33A00AC0E14 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		8B2D62DE1A62C33A00AC0E14 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		8B2D62DF1A62C33A00AC0E14 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		8B2D62E31A62CFD900AC0E14 /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		8B5987391A635A21002D2F9A /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		8B59873C1A635A47002D2F9A /* EventsXMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsXMLParser.swift; sourceTree = "<group>"; };
 		8B7792F71A6251C8003219EB /* NewsFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedTableViewController.swift; sourceTree = "<group>"; };
 		8B7792FA1A6253E7003219EB /* XMLParserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParserManager.swift; sourceTree = "<group>"; };
-		8B7793041A626863003219EB /* WebPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebPageViewController.swift; path = ../WebPageViewController.swift; sourceTree = "<group>"; };
+		8B90DA791A63C41700D59C36 /* Coaches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coaches.swift; sourceTree = "<group>"; };
+		8B90DA7B1A63C45700D59C36 /* Roster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roster.swift; sourceTree = "<group>"; };
+		8B9A630E1A6468A800D7B733 /* Academics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Academics.swift; sourceTree = "<group>"; };
+		8B9C1E1B1A66065700F0EE8E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../../SwiftyJSON/Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		8BB01BAF1A62353100423346 /* Lion Football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lion Football.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB01BB31A62353100423346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB01BB41A62353100423346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +78,8 @@
 		8BB01BC41A62353100423346 /* Lion FootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lion FootballTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB01BC91A62353100423346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB01BCA1A62353100423346 /* Lion_FootballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lion_FootballTests.swift; sourceTree = "<group>"; };
-		8BB01BD41A62410700423346 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BB99D171A63AFE800D8EFE1 /* More.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = More.swift; sourceTree = "<group>"; };
+		8BB99D1A1A63B22300D8EFE1 /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		8BE67C021A6280A6008F9B9F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		8BE67C041A6280AC008F9B9F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -59,6 +91,8 @@
 			files = (
 				8BC68F191A62817A00D1B997 /* Twitter.framework in Frameworks */,
 				8BC68F181A62817400D1B997 /* Social.framework in Frameworks */,
+				8B2D62E01A62C33A00AC0E14 /* TwitterKit.framework in Frameworks */,
+				8B2D62E21A62C33A00AC0E14 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,11 +106,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B2D62E51A62CFDF00AC0E14 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				8B2D62E31A62CFD900AC0E14 /* Videos.swift */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+		8B59873B1A635A25002D2F9A /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				8B5987391A635A21002D2F9A /* Events.swift */,
+				8B59873C1A635A47002D2F9A /* EventsXMLParser.swift */,
+				307671C21ACE2A5C00640AE9 /* EventCell.swift */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
 		8B7792F91A625302003219EB /* News Feed */ = {
 			isa = PBXGroup;
 			children = (
 				8B7792F71A6251C8003219EB /* NewsFeedTableViewController.swift */,
-				8B7793041A626863003219EB /* WebPageViewController.swift */,
+				8B2D62DA1A629FC900AC0E14 /* WebPageViewController.swift */,
 				8B7792FA1A6253E7003219EB /* XMLParserManager.swift */,
 			);
 			name = "News Feed";
@@ -93,6 +145,10 @@
 		8BB01BA61A62353100423346 = {
 			isa = PBXGroup;
 			children = (
+				30459C611A71C7A80077E80F /* Images.xcassets */,
+				8B2D62DD1A62C33A00AC0E14 /* TwitterKit.framework */,
+				8B2D62DE1A62C33A00AC0E14 /* TwitterKitResources.bundle */,
+				8B2D62DF1A62C33A00AC0E14 /* Fabric.framework */,
 				8BE67C041A6280AC008F9B9F /* Social.framework */,
 				8BE67C021A6280A6008F9B9F /* Twitter.framework */,
 				8BB01BB11A62353100423346 /* Lion Football */,
@@ -113,13 +169,16 @@
 		8BB01BB11A62353100423346 /* Lion Football */ = {
 			isa = PBXGroup;
 			children = (
+				8B9C1E1B1A66065700F0EE8E /* SwiftyJSON.swift */,
 				8BB01BB41A62353100423346 /* AppDelegate.swift */,
 				8BB01BB61A62353100423346 /* ViewController.swift */,
-				8B72AB881A62842500F11004 /* VideoViewController.swift */,
+				8BB99D1A1A63B22300D8EFE1 /* Base.swift */,
 				8B7793081A6277BB003219EB /* Twitter */,
 				8B7792F91A625302003219EB /* News Feed */,
 				8BB01BB81A62353100423346 /* Main.storyboard */,
-				8BB01BD41A62410700423346 /* Images.xcassets */,
+				8BB99D191A63AFF900D8EFE1 /* More */,
+				8B59873B1A635A25002D2F9A /* Events */,
+				8B2D62E51A62CFDF00AC0E14 /* Videos */,
 				8BB01BBD1A62353100423346 /* LaunchScreen.xib */,
 				8BB01BB21A62353100423346 /* Supporting Files */,
 			);
@@ -151,6 +210,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8BB99D191A63AFF900D8EFE1 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				30D6D13C1A70FC7D00E3473C /* Contact.swift */,
+				8BB99D171A63AFE800D8EFE1 /* More.swift */,
+				30D6D1401A71011F00E3473C /* About.swift */,
+				8B90DA791A63C41700D59C36 /* Coaches.swift */,
+				8B90DA7B1A63C45700D59C36 /* Roster.swift */,
+				8B9A630E1A6468A800D7B733 /* Academics.swift */,
+				30D6D13A1A70F9DA00E3473C /* Hammond.swift */,
+				302816551A70E04800622F34 /* Southeastern.swift */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,6 +235,7 @@
 				8BB01BAB1A62353100423346 /* Sources */,
 				8BB01BAC1A62353100423346 /* Frameworks */,
 				8BB01BAD1A62353100423346 /* Resources */,
+				8B2D62DC1A62C2F800AC0E14 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -200,9 +275,11 @@
 				TargetAttributes = {
 					8BB01BAE1A62353100423346 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2S72XVWV5T;
 					};
 					8BB01BC31A62353100423346 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2S72XVWV5T;
 						TestTargetID = 8BB01BAE1A62353100423346;
 					};
 				};
@@ -231,7 +308,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB01BD51A62410700423346 /* Images.xcassets in Resources */,
+				8B2D62E11A62C33A00AC0E14 /* TwitterKitResources.bundle in Resources */,
+				30459C621A71C7A80077E80F /* Images.xcassets in Resources */,
 				8BB01BBA1A62353100423346 /* Main.storyboard in Resources */,
 				8BB01BBF1A62353100423346 /* LaunchScreen.xib in Resources */,
 			);
@@ -246,18 +324,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B2D62DC1A62C2F800AC0E14 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 5da66b10daa4d2f2ee07d3f3e2e6596db566def6 e90df2105bb72a6eb10f28252c46200a30bae18b426a83ceba4fd631acac7c43";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BB01BAB1A62353100423346 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D6D13D1A70FC7D00E3473C /* Contact.swift in Sources */,
+				8B9A630F1A6468A800D7B733 /* Academics.swift in Sources */,
+				302816561A70E04800622F34 /* Southeastern.swift in Sources */,
+				8BB99D181A63AFE800D8EFE1 /* More.swift in Sources */,
+				8B2D62DB1A629FC900AC0E14 /* WebPageViewController.swift in Sources */,
+				8B90DA7C1A63C45700D59C36 /* Roster.swift in Sources */,
+				8B59873D1A635A47002D2F9A /* EventsXMLParser.swift in Sources */,
 				8B063CC91A627B920058244E /* TwitterViewController.swift in Sources */,
-				8B72AB891A62842500F11004 /* VideoViewController.swift in Sources */,
 				8BB01BB71A62353100423346 /* ViewController.swift in Sources */,
+				8B2D62E41A62CFD900AC0E14 /* Videos.swift in Sources */,
+				30D6D13B1A70F9DA00E3473C /* Hammond.swift in Sources */,
+				8B59873A1A635A21002D2F9A /* Events.swift in Sources */,
+				307671C31ACE2A5C00640AE9 /* EventCell.swift in Sources */,
 				8B7792F81A6251C8003219EB /* NewsFeedTableViewController.swift in Sources */,
 				8B7792FB1A6253E7003219EB /* XMLParserManager.swift in Sources */,
-				8B7793051A626863003219EB /* WebPageViewController.swift in Sources */,
 				8BB01BB51A62353100423346 /* AppDelegate.swift in Sources */,
+				8B9C1E1C1A66065700F0EE8E /* SwiftyJSON.swift in Sources */,
+				30D6D1411A71011F00E3473C /* About.swift in Sources */,
+				8B90DA7A1A63C41700D59C36 /* Coaches.swift in Sources */,
+				8BB99D1B1A63B22300D8EFE1 /* Base.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +406,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		303346761A7345980093973C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "341f4c7f-0142-438d-8607-882a713e95a5";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		303346771A7345980093973C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Lion Football/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "341f4c7f-0142-438d-8607-882a713e95a5";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		303346781A7345980093973C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lion FootballTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lion Football.app/Lion Football";
+			};
+			name = Distribution;
+		};
 		8BB01BCC1A62353100423346 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -316,8 +499,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
+				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -333,12 +517,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "341f4c7f-0142-438d-8607-882a713e95a5";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -359,9 +545,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
 				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_NS_ASSERTIONS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -370,8 +557,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "341f4c7f-0142-438d-8607-882a713e95a5";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -382,13 +571,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Lion Football/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "341f4c7f-0142-438d-8607-882a713e95a5";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -397,13 +590,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tika Datta Pahadi (2S72XVWV5T)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Lion Football/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "341f4c7f-0142-438d-8607-882a713e95a5";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -412,6 +609,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -423,6 +622,7 @@
 				INFOPLIST_FILE = "Lion FootballTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lion Football.app/Lion Football";
 			};
 			name = Debug;
@@ -431,6 +631,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -438,6 +640,7 @@
 				INFOPLIST_FILE = "Lion FootballTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lion Football.app/Lion Football";
 			};
 			name = Release;
@@ -450,6 +653,7 @@
 			buildConfigurations = (
 				8BB01BCC1A62353100423346 /* Debug */,
 				8BB01BCD1A62353100423346 /* Release */,
+				303346761A7345980093973C /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -459,6 +663,7 @@
 			buildConfigurations = (
 				8BB01BCF1A62353100423346 /* Debug */,
 				8BB01BD01A62353100423346 /* Release */,
+				303346771A7345980093973C /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -468,6 +673,7 @@
 			buildConfigurations = (
 				8BB01BD21A62353100423346 /* Debug */,
 				8BB01BD31A62353100423346 /* Release */,
+				303346781A7345980093973C /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Arled. All rights reserved.
 //
 
+import UIKit
 import Foundation
 
 class XmlParserManager: NSObject, NSXMLParserDelegate {
@@ -15,16 +16,23 @@ class XmlParserManager: NSObject, NSXMLParserDelegate {
     var elements = NSMutableDictionary()
     
     var element = NSString()
-    var ftitle = NSMutableString()
-    var flink = NSMutableString()
-    var fdescription = NSMutableString()
-    var fdate = NSMutableString()
-    var fimage = NSMutableString()
+    
+    var title = NSMutableString()
+    
+    var link = NSMutableString()
+    
+    var desc = NSMutableString()
+    
+    var pubDate = NSMutableString()
+    
+    var image = NSMutableString()
+    
     
     
     
     // initilise parser
     func initWithURL(url :NSURL) -> AnyObject {
+        //print(url)
         startParse(url)
         return self
     }
@@ -50,16 +58,16 @@ class XmlParserManager: NSObject, NSXMLParserDelegate {
         if (element as NSString).isEqualToString("item") {
             elements = NSMutableDictionary.alloc()
             elements = [:]
-            ftitle = NSMutableString.alloc()
-            ftitle = ""
-            flink = NSMutableString.alloc()
-            flink = ""
-            fdescription = NSMutableString.alloc()
-            fdescription = ""
-            fdate = NSMutableString.alloc()
-            fdate = ""
-            fimage = NSMutableString.alloc()
-            fimage = ""
+            title = NSMutableString.alloc()
+            title = ""
+            link = NSMutableString.alloc()
+            link = ""
+            desc = NSMutableString.alloc()
+            desc = ""
+            pubDate = NSMutableString.alloc()
+            pubDate = ""
+            image = NSMutableString.alloc()
+            image = ""
         }
         
     }
@@ -67,37 +75,54 @@ class XmlParserManager: NSObject, NSXMLParserDelegate {
     func parser(parser: NSXMLParser!, didEndElement elementName: String!, namespaceURI: String!, qualifiedName qName: String!) {
         
         if (elementName as NSString).isEqualToString("item") {
-            if ftitle != "" {
-                elements.setObject(ftitle, forKey: "title")
+            if title != "" {
+                elements.setObject(title.stringByReplacingOccurrencesOfString("\n", withString: ""), forKey: "title")
             }
             
-            if flink != "" {
-                elements.setObject(flink, forKey: "link")
+            if link != "" {
+                elements.setObject(link.stringByReplacingOccurrencesOfString("\n", withString: ""), forKey: "link")
             }
             
-            if fdescription != ""{
-                
+            if desc != ""{
                 //Custom For this Site Only
+
+                let str : String = desc as String
                 
-                let start  = fdescription.rangeOfString("<br /><br />").location + 12
-                let end = fdescription.length - start
-                let actualDesc = fdescription.substringWithRange(NSRange(location: start, length: end))
+                var img = "http://www.lionsports.net/images/2015/1/30/stadium_fb_2013_action3_web.jpg"
                 
-                let start2  = fdescription.rangeOfString("<img src=").location + 10
-                let end2 = fdescription.rangeOfString(".jpg").location + 4 - start2
-                let img = fdescription.substringWithRange(NSRange(location: start2, length: end2))
-                
+                var index  = str.rangeOfString("<img src=\"")?.endIndex
+                var _temp = str.substringFromIndex(index!)
                 
                 
-                elements.setObject(actualDesc, forKey: "description")
+                if(index != nil){                    index  = _temp.rangeOfString(".jpg")?.endIndex
+                    if(index == nil){
+                        index = _temp.rangeOfString(".jpeg")?.endIndex
+                        if(index == nil){
+                            _temp.rangeOfString(".png")?.endIndex
+                        }
+                    }
+                    
+                    if(index != nil){
+                        _temp = _temp.substringToIndex(index!)
+                        img = _temp
+                    }
+                }
+                
+                
                 elements.setObject(img, forKey: "image")
+                
+                
+            }
+            if pubDate != ""{
+                elements.setObject(pubDate.stringByReplacingOccurrencesOfString("\n", withString: ""), forKey: "pubDate")
             }
             
-            if fdate != "" {
-                elements.setObject(fdate, forKey: "pubDate")
-            }
+            
             
             feeds.addObject(elements)
+            //print(elements)
+            
+            
         }
         
     }
@@ -105,15 +130,13 @@ class XmlParserManager: NSObject, NSXMLParserDelegate {
     func parser(parser: NSXMLParser!, foundCharacters string: String!) {
         
         if element.isEqualToString("title") {
-            ftitle.appendString(string)
+            title.appendString(string)
         } else if element.isEqualToString("link") {
-            flink.appendString(string)
+            link.appendString(string)
         }else if element.isEqualToString("description") {
-            fdescription.appendString(string)
+            desc.appendString(string)
         }else if element.isEqualToString("pubDate") {
-            fdate.appendString(string)
-        }else if element.isEqualToString("image") {
-            fimage.appendString(string)
+            pubDate.appendString(string)
         }
     }
     

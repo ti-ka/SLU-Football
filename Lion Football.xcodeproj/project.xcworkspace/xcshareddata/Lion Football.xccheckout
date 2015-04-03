@@ -10,6 +10,10 @@
 	<string>Lion Football</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</key>
+		<string>https://github.com/lingoer/SwiftyJSON.git</string>
+		<key>CD0A4CF5DFE48E59C125B1D76AE5A2CFFC46F9E3</key>
+		<string>https://github.com/tpahadi/LionApp.git</string>
 		<key>FE8031D0919B145BA9DFA58668660AFECC2FDA1D</key>
 		<string>https://github.com/tpahadi/Lion-Football.git</string>
 	</dict>
@@ -17,15 +21,19 @@
 	<string>Lion Football.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>FE8031D0919B145BA9DFA58668660AFECC2FDA1D</key>
+		<key>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</key>
+		<string>../../../SwiftyJSON</string>
+		<key>CD0A4CF5DFE48E59C125B1D76AE5A2CFFC46F9E3</key>
 		<string>../..</string>
+		<key>FE8031D0919B145BA9DFA58668660AFECC2FDA1D</key>
+		<string>../../../Lion%20Football</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/tpahadi/Lion-Football.git</string>
+	<string>https://github.com/tpahadi/LionApp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FE8031D0919B145BA9DFA58668660AFECC2FDA1D</string>
+	<string>CD0A4CF5DFE48E59C125B1D76AE5A2CFFC46F9E3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +43,22 @@
 			<string>FE8031D0919B145BA9DFA58668660AFECC2FDA1D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Lion%20Football</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CD0A4CF5DFE48E59C125B1D76AE5A2CFFC46F9E3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LionApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C861FC00CEE0F6A6BE81FCFF6785FAA78C58EBB3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftyJSON</string>
 		</dict>
 	</array>
 </dict>

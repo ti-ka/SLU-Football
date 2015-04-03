@@ -14,22 +14,33 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var scrollview: UIScrollView!
     @IBOutlet weak var menuTable: UITableView!
     
-    var menuItems = ["News Feed","Twitter","Videos","Events","More"]
+    var menuItems = ["News Feed","Twitter","Videos","Schedule","More"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         loadBackground()
         
-                
-        self.menuTable?.tableFooterView = UIView(frame: CGRectZero)
-        self.menuTable?.separatorColor = UIColor.yellowColor()
-        
-        //self.navigationController?.setNavigationBarHidden(false, animated: false)
         
         
         println("Home Page Loaded")
     
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+        
+    }
+
+    override func viewDidAppear(animated: Bool) {
+        self.menuTable?.tableFooterView = UIView(frame: CGRectZero)
+        
+        
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+        
     }
     
     func loadBackground(){
@@ -69,12 +80,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         cell.textLabel?.text = menuItems[indexPath.row]
         cell.textLabel?.textColor = UIColor.yellowColor()
+        cell.backgroundColor = UIColor.clearColor()
         
-        //let img : UIImage = tint(UIImage(named: menuItems[indexPath.row])!,color: UIColor.yellowColor())
+                
+        let img : UIImage = tint(UIImage(named: menuItems[indexPath.row])!,color: UIColor.yellowColor())
       
-        
-        //cell.imageView?.image = img
-        
+        cell.imageView?.image = img
         
         return cell
         
@@ -96,16 +107,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return UIImage(CIImage: filter.outputImage)!
     }
     
-    func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
+
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        println("Clicked \(menuItems[indexPath.row]) ")
+        //tableView.cellForRowAtIndexPath(indexPath)?.textLabel?.textColor = UIColor.whiteColor()
+        
+        //println("Clicked \(menuItems[indexPath.row]) ")
         //let vc = self.storyboard?.instantiateViewControllerWithIdentifier("News Feed") as NewsFeedTableViewController
         //self.presentViewController(vc, animated: true, completion: nil)
-        let vc = self.storyboard?.instantiateViewControllerWithIdentifier("News Feed") as NewsFeedTableViewController
-        self.presentViewController(vc, animated: true, completion: nil)
+      
+    
         
-        
-        /*
         
         switch indexPath.row {
             
@@ -115,13 +128,23 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             break;
         case 1 :
             let vc = self.storyboard?.instantiateViewControllerWithIdentifier("Twitter Page") as TwitterViewController
-            self.presentViewController(vc, animated: true, completion: nil)
-            
-            
+
+            self.navigationController?.pushViewController(vc, animated: true)
             break;
             
         case 2 :
-            let vc = self.storyboard?.instantiateViewControllerWithIdentifier("Videos") as VideoViewController
+            let vc = self.storyboard?.instantiateViewControllerWithIdentifier("Videos") as Videos
+            self.navigationController?.pushViewController(vc, animated: true)
+            break;
+            
+            
+        case 3 :
+            let vc = self.storyboard?.instantiateViewControllerWithIdentifier("Events") as Events
+            self.navigationController?.pushViewController(vc, animated: true)
+            break;
+            
+        case 4 :
+            let vc = self.storyboard?.instantiateViewControllerWithIdentifier("More") as More
             self.navigationController?.pushViewController(vc, animated: true)
             break;
             
@@ -129,34 +152,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         default :
             break;
         }
-        */
         
         
         
     }
-    /*
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-     
-        if segue.identifier == "showNewsFeed" {
-            
-            //var indexPath: NSIndexPath = self.tableView.indexPathForSelectedRow()!
-            //let selectedFeedURL: String = feeds[indexPath.row].objectForKey("link") as String
-            //let selectedFTitle: String = myFeed[indexPath.row].objectForKey("title") as String
-            //let selectedFContent: String = myFeed[indexPath.row].objectForKey("description") as String
-            //let selectedFURL: String = myFeed[indexPath.row].objectForKey("link") as String
-            //let selectedFImg: String = myFeed[indexPath.row].objectForKey("image") as String
-            
-            // Instance of our feedpageviewcontrolelr
-            
-            let fpvc: NewsFeedTableViewController = segue.destinationViewController as NewsFeedTableViewController
-            
-          
-            
-        }
-        
-        
-    }
-*/
+
     
     
     
