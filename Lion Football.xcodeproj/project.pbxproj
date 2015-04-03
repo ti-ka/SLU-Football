@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B063CC91A627B920058244E /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B063CC81A627B920058244E /* TwitterViewController.swift */; };
+		8B72AB891A62842500F11004 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B72AB881A62842500F11004 /* VideoViewController.swift */; };
+		8B7792F81A6251C8003219EB /* NewsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7792F71A6251C8003219EB /* NewsFeedTableViewController.swift */; };
+		8B7792FB1A6253E7003219EB /* XMLParserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7792FA1A6253E7003219EB /* XMLParserManager.swift */; };
+		8B7793051A626863003219EB /* WebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7793041A626863003219EB /* WebPageViewController.swift */; };
+		8BB01BB51A62353100423346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB01BB41A62353100423346 /* AppDelegate.swift */; };
+		8BB01BB71A62353100423346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB01BB61A62353100423346 /* ViewController.swift */; };
+		8BB01BBA1A62353100423346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB01BB81A62353100423346 /* Main.storyboard */; };
+		8BB01BBF1A62353100423346 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB01BBD1A62353100423346 /* LaunchScreen.xib */; };
+		8BB01BCB1A62353100423346 /* Lion_FootballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB01BCA1A62353100423346 /* Lion_FootballTests.swift */; };
+		8BB01BD51A62410700423346 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB01BD41A62410700423346 /* Images.xcassets */; };
+		8BC68F181A62817400D1B997 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE67C041A6280AC008F9B9F /* Social.framework */; };
+		8BC68F191A62817A00D1B997 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE67C021A6280A6008F9B9F /* Twitter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BB01BC51A62353100423346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB01BA71A62353100423346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BB01BAE1A62353100423346;
+			remoteInfo = "Lion Football";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B063CC81A627B920058244E /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		8B72AB881A62842500F11004 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		8B7792F71A6251C8003219EB /* NewsFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedTableViewController.swift; sourceTree = "<group>"; };
+		8B7792FA1A6253E7003219EB /* XMLParserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParserManager.swift; sourceTree = "<group>"; };
+		8B7793041A626863003219EB /* WebPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebPageViewController.swift; path = ../WebPageViewController.swift; sourceTree = "<group>"; };
+		8BB01BAF1A62353100423346 /* Lion Football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lion Football.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB01BB31A62353100423346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB01BB41A62353100423346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BB01BB61A62353100423346 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BB01BB91A62353100423346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BB01BBE1A62353100423346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8BB01BC41A62353100423346 /* Lion FootballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lion FootballTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB01BC91A62353100423346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB01BCA1A62353100423346 /* Lion_FootballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lion_FootballTests.swift; sourceTree = "<group>"; };
+		8BB01BD41A62410700423346 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BE67C021A6280A6008F9B9F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		8BE67C041A6280AC008F9B9F /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB01BAC1A62353100423346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC68F191A62817A00D1B997 /* Twitter.framework in Frameworks */,
+				8BC68F181A62817400D1B997 /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB01BC11A62353100423346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B7792F91A625302003219EB /* News Feed */ = {
+			isa = PBXGroup;
+			children = (
+				8B7792F71A6251C8003219EB /* NewsFeedTableViewController.swift */,
+				8B7793041A626863003219EB /* WebPageViewController.swift */,
+				8B7792FA1A6253E7003219EB /* XMLParserManager.swift */,
+			);
+			name = "News Feed";
+			sourceTree = "<group>";
+		};
+		8B7793081A6277BB003219EB /* Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				8B063CC81A627B920058244E /* TwitterViewController.swift */,
+			);
+			name = Twitter;
+			sourceTree = "<group>";
+		};
+		8BB01BA61A62353100423346 = {
+			isa = PBXGroup;
+			children = (
+				8BE67C041A6280AC008F9B9F /* Social.framework */,
+				8BE67C021A6280A6008F9B9F /* Twitter.framework */,
+				8BB01BB11A62353100423346 /* Lion Football */,
+				8BB01BC71A62353100423346 /* Lion FootballTests */,
+				8BB01BB01A62353100423346 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB01BB01A62353100423346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB01BAF1A62353100423346 /* Lion Football.app */,
+				8BB01BC41A62353100423346 /* Lion FootballTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BB01BB11A62353100423346 /* Lion Football */ = {
+			isa = PBXGroup;
+			children = (
+				8BB01BB41A62353100423346 /* AppDelegate.swift */,
+				8BB01BB61A62353100423346 /* ViewController.swift */,
+				8B72AB881A62842500F11004 /* VideoViewController.swift */,
+				8B7793081A6277BB003219EB /* Twitter */,
+				8B7792F91A625302003219EB /* News Feed */,
+				8BB01BB81A62353100423346 /* Main.storyboard */,
+				8BB01BD41A62410700423346 /* Images.xcassets */,
+				8BB01BBD1A62353100423346 /* LaunchScreen.xib */,
+				8BB01BB21A62353100423346 /* Supporting Files */,
+			);
+			path = "Lion Football";
+			sourceTree = "<group>";
+		};
+		8BB01BB21A62353100423346 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB01BB31A62353100423346 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BB01BC71A62353100423346 /* Lion FootballTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BB01BCA1A62353100423346 /* Lion_FootballTests.swift */,
+				8BB01BC81A62353100423346 /* Supporting Files */,
+			);
+			path = "Lion FootballTests";
+			sourceTree = "<group>";
+		};
+		8BB01BC81A62353100423346 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB01BC91A62353100423346 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BB01BAE1A62353100423346 /* Lion Football */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB01BCE1A62353100423346 /* Build configuration list for PBXNativeTarget "Lion Football" */;
+			buildPhases = (
+				8BB01BAB1A62353100423346 /* Sources */,
+				8BB01BAC1A62353100423346 /* Frameworks */,
+				8BB01BAD1A62353100423346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lion Football";
+			productName = "Lion Football";
+			productReference = 8BB01BAF1A62353100423346 /* Lion Football.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BB01BC31A62353100423346 /* Lion FootballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB01BD11A62353100423346 /* Build configuration list for PBXNativeTarget "Lion FootballTests" */;
+			buildPhases = (
+				8BB01BC01A62353100423346 /* Sources */,
+				8BB01BC11A62353100423346 /* Frameworks */,
+				8BB01BC21A62353100423346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BB01BC61A62353100423346 /* PBXTargetDependency */,
+			);
+			name = "Lion FootballTests";
+			productName = "Lion FootballTests";
+			productReference = 8BB01BC41A62353100423346 /* Lion FootballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB01BA71A62353100423346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tika Pahadi";
+				TargetAttributes = {
+					8BB01BAE1A62353100423346 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8BB01BC31A62353100423346 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8BB01BAE1A62353100423346;
+					};
+				};
+			};
+			buildConfigurationList = 8BB01BAA1A62353100423346 /* Build configuration list for PBXProject "Lion Football" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BB01BA61A62353100423346;
+			productRefGroup = 8BB01BB01A62353100423346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB01BAE1A62353100423346 /* Lion Football */,
+				8BB01BC31A62353100423346 /* Lion FootballTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB01BAD1A62353100423346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB01BD51A62410700423346 /* Images.xcassets in Resources */,
+				8BB01BBA1A62353100423346 /* Main.storyboard in Resources */,
+				8BB01BBF1A62353100423346 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB01BC21A62353100423346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BB01BAB1A62353100423346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B063CC91A627B920058244E /* TwitterViewController.swift in Sources */,
+				8B72AB891A62842500F11004 /* VideoViewController.swift in Sources */,
+				8BB01BB71A62353100423346 /* ViewController.swift in Sources */,
+				8B7792F81A6251C8003219EB /* NewsFeedTableViewController.swift in Sources */,
+				8B7792FB1A6253E7003219EB /* XMLParserManager.swift in Sources */,
+				8B7793051A626863003219EB /* WebPageViewController.swift in Sources */,
+				8BB01BB51A62353100423346 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB01BC01A62353100423346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB01BCB1A62353100423346 /* Lion_FootballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BB01BC61A62353100423346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BB01BAE1A62353100423346 /* Lion Football */;
+			targetProxy = 8BB01BC51A62353100423346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BB01BB81A62353100423346 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB01BB91A62353100423346 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BB01BBD1A62353100423346 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB01BBE1A62353100423346 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BB01BCC1A62353100423346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB01BCD1A62353100423346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BB01BCF1A62353100423346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Lion Football/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB01BD01A62353100423346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Lion Football/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BB01BD21A62353100423346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lion FootballTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lion Football.app/Lion Football";
+			};
+			name = Debug;
+		};
+		8BB01BD31A62353100423346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lion FootballTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lion Football.app/Lion Football";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BB01BAA1A62353100423346 /* Build configuration list for PBXProject "Lion Football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB01BCC1A62353100423346 /* Debug */,
+				8BB01BCD1A62353100423346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB01BCE1A62353100423346 /* Build configuration list for PBXNativeTarget "Lion Football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB01BCF1A62353100423346 /* Debug */,
+				8BB01BD01A62353100423346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB01BD11A62353100423346 /* Build configuration list for PBXNativeTarget "Lion FootballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB01BD21A62353100423346 /* Debug */,
+				8BB01BD31A62353100423346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BB01BA71A62353100423346 /* Project object */;
+}

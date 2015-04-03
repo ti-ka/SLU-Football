@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NSy-M6-JrW">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--ViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Lion_Football" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-port" translatesAutoresizingMaskIntoConstraints="NO" id="wU8-zG-CyV">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2gB-Mz-LRq">
+                                <rect key="frame" x="0.0" y="35" width="609" height="324"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </scrollView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="GCv-CT-9ls">
+                                <rect key="frame" x="344" y="327" width="256" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="ftA-tK-ecB"/>
+                                </constraints>
+                                <color key="sectionIndexColor" red="0.81729403410000001" green="0.75881569940000004" blue="0.1302285239" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="menuCell" id="wi8-xE-Ecl">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wi8-xE-Ecl" id="18e-PL-FtG">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="cNB-2Y-qvE"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="jr0-ua-FRa"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="GCv-CT-9ls" secondAttribute="bottom" constant="-27" id="7nT-tV-VHX"/>
+                            <constraint firstAttribute="trailing" secondItem="wU8-zG-CyV" secondAttribute="trailing" id="X8y-2V-7Q2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GCv-CT-9ls" secondAttribute="trailing" constant="-16" id="bMi-TV-Qtl"/>
+                            <constraint firstItem="wU8-zG-CyV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pgx-fE-nkr"/>
+                            <constraint firstItem="wU8-zG-CyV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uSb-oO-76Y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wU8-zG-CyV" secondAttribute="bottom" id="x2C-6c-Nje"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cMm-Ys-JKY">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="O6C-ie-gBD">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5m6-6V-cnL">
+                                <rect key="frame" x="-23" y="-15" width="133" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Lion Football">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <color key="tintColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.63" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="ler-hR-ZNI">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="efk-d6-cSN">
+                                <rect key="frame" x="451" y="7" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="background" destination="wU8-zG-CyV" id="yTS-m8-aym"/>
+                        <outlet property="menuTable" destination="GCv-CT-9ls" id="t5d-ha-h3p"/>
+                        <outlet property="scrollview" destination="2gB-Mz-LRq" id="ggd-pL-bR3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4881" y="-1440"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="vsE-J6-8nz">
+            <objects>
+                <tableViewController storyboardIdentifier="Videos" id="Gyk-1w-tYa" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="4Um-KR-HNY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="iKA-nU-ZZO">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iKA-nU-ZZO" id="ItT-oz-pQb">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Gyk-1w-tYa" id="cdg-uh-8kn"/>
+                            <outlet property="delegate" destination="Gyk-1w-tYa" id="Iav-mE-uYl"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qcf-1r-Ls0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4240" y="-1447"/>
+        </scene>
+        <!--News Feed Table View Controller-->
+        <scene sceneID="8yD-U4-FkY">
+            <objects>
+                <tableViewController storyboardIdentifier="News Feed" id="ADs-GQ-KTJ" customClass="NewsFeedTableViewController" customModule="Lion_Football" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="KDB-Da-yD9">
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.1411764771" green="0.062745101750000004" blue="0.039215687659999998" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.28101325757575757" green="0.28101325757575757" blue="0.28101325757575757" alpha="0.67000000000000004" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="feedCell" textLabel="iLK-d2-z6W" detailTextLabel="bv7-Y4-aXQ" style="IBUITableViewCellStyleSubtitle" id="hBT-Zh-72z">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hBT-Zh-72z" id="mrK-zZ-hHO">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iLK-d2-z6W">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bv7-Y4-aXQ">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="U8D-El-uBC" kind="show" identifier="showNews" id="DBc-1Z-DKL"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ADs-GQ-KTJ" id="07M-EA-MtD"/>
+                            <outlet property="delegate" destination="ADs-GQ-KTJ" id="N7R-mM-kkK"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Buz-gC-Y0A"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dHA-Ro-TYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4881" y="-708"/>
+        </scene>
+        <!--Twitter View Controller-->
+        <scene sceneID="r5r-xt-gJx">
+            <objects>
+                <viewController storyboardIdentifier="Twitter Page" id="nyL-8o-dM4" customClass="TwitterViewController" customModule="Lion_Football" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BXE-26-cr3"/>
+                        <viewControllerLayoutGuide type="bottom" id="4do-PK-Q37"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7IW-le-s1h">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTU-3Q-Zec">
+                                <rect key="frame" x="57" y="40" width="46" height="30"/>
+                                <state key="normal" title="Twitter">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xKd-uY-pTK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4253" y="-698"/>
+        </scene>
+        <!--Web View-->
+        <scene sceneID="6J9-X0-uj2">
+            <objects>
+                <viewController storyboardIdentifier="Web View" title="Web View" id="U8D-El-uBC" customClass="WebPageViewController" customModule="Lion_Football" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7a5-Qv-Qur"/>
+                        <viewControllerLayoutGuide type="bottom" id="6s5-hD-kej"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EQN-Vd-ZUL">
+                        <rect key="frame" x="0.0" y="64" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gh6-V3-qFT">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6s5-hD-kej" firstAttribute="top" secondItem="gh6-V3-qFT" secondAttribute="bottom" id="9ao-nU-u0P"/>
+                            <constraint firstItem="gh6-V3-qFT" firstAttribute="leading" secondItem="EQN-Vd-ZUL" secondAttribute="leading" id="MWQ-ND-IqU"/>
+                            <constraint firstItem="gh6-V3-qFT" firstAttribute="top" secondItem="EQN-Vd-ZUL" secondAttribute="top" id="NSN-Vf-hqu"/>
+                            <constraint firstAttribute="trailing" secondItem="gh6-V3-qFT" secondAttribute="trailing" id="wYJ-Vb-MfA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="zFd-lD-AI8"/>
+                    <connections>
+                        <outlet property="webView" destination="gh6-V3-qFT" id="8XR-47-wdG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZzD-P1-z0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4881" y="8"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CvM-gD-wdI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NSy-M6-JrW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IiQ-31-xKo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.90431660353535359" green="0.90431660353535359" blue="0.90431660353535359" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="BQi-gd-HxZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RsM-u3-rM8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5657" y="-1440"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg-port" width="1033" height="1836"/>
+    </resources>
+</document>
